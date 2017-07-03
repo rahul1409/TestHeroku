@@ -1,0 +1,20 @@
+{
+  "name": "TestHeroku",
+  "scripts": {
+  },
+  "env": {
+    "": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/appjson"
+    }
+  ]
+}
